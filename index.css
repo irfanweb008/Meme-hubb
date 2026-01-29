@@ -1,0 +1,138 @@
+body{
+background: linear-gradient(
+  to right,
+  #ff7a18 0%,
+  #ffb347 50%,
+  #ffd194 100%
+);
+}
+#navv {
+  display: flex;
+  width: 98.3vw;
+  background-color: #d3d3d3;
+  display: flex;
+}
+
+#logo {
+  margin: 10px;
+}
+#tt {
+  margin: auto;
+}
+
+#name{
+  margin-right: 20px;
+}
+
+#h {
+  display: flex;
+   
+}
+
+#hh{
+ background-color: rgba(221, 214, 227, 0.48);
+ border-radius: 50%;
+ width: 40px;
+ height: 40px;
+ margin-top: 20px;
+}
+.inp{
+  padding: 1px;
+  border-radius: 5px;
+  border: 1px solid blanchedalmond;
+}
+
+.memeImg {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #d3d3d3;
+  border-radius: 10px;
+  margin-left: 11.975px;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+  background-color: rgb(145, 128, 128);
+  padding: 20px;
+}
+
+.btn {
+  margin-top: 10px;
+  width: 70px;
+  align-items: center;
+  margin-left: 6px;
+  padding: 3px;
+  border: 1px solid green;
+  background-color: green;
+  border-radius: 5px;
+
+}
+
+.btns {
+  margin-top: 10px;
+  width: 75p3x;
+  align-items: center;
+  margin-left: 6px;
+  padding: 3px;
+  /* border: 1px solid rgb(131, 253, 44); */
+  background-color: #7F5539;
+  border-radius: 5px;
+
+}
+
+.btnss {
+  margin-top: 10px;
+  width: 70px;
+  align-items: center;
+  margin-left: 6px;
+  padding: 3px;
+  border: 1px solid rgb(249, 10, 10);
+  background-color: rgb(147, 0, 0);
+  border-radius: 5px;
+
+}
+
+#page {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.card {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: bisque;
+}
+
+#form {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  top: 150px;
+  transform: scale(0);
+  transition: all 1s ease-in-out;
+  
+}
+
+#inner {
+  border: 1px solid gray;
+  padding: 20px;
+  border-radius: 10px;
+  background: linear-gradient(
+  to bottom,
+  rgba(0, 0, 0, 0.6),
+  rgba(0, 0, 0, 0)
+);
+}
+
+.inpGrid {
+  display: grid;
+  gap: 10px;
+}
